@@ -1,0 +1,94 @@
+[versions]
+activityKtx = "1.9.2"
+androidGradlePlugin = "8.1.4"
+compiler = "3.3.0-alpha13"
+core = "3.4.0"
+fragmentKtx = "1.8.4"
+googleServices = "4.4.0"
+kotlin = "1.9.25"
+kotlinStdlibJdk8 = "1.4.31"
+kotlinxMetadataJvm = "0.7.0"
+kotlinxSerializationJson = "1.6.0"
+lifecycleViewmodelCompose = "2.8.6"
+navGradlePlugin = "2.8.2"
+firebaseGradleCrashlytics = "2.9.9"
+firebaseGradlePerf = "1.4.2"
+androidx-core = "1.12.0"
+androidx-appcompat = "1.6.1"
+androidx-constraintlayout = "2.1.4"
+androidx-lifecycle = "2.6.2"
+androidx-lifecycleExtensions = "2.2.0"
+androidx-legacy = "1.0.0"
+androidx-vectordrawable = "1.1.0"
+androidx-browser = "1.7.0"
+gson = "2.10"
+recyclerview = "1.3.2"
+navFragmentKtx = "2.7.5"
+room = "2.6.1"
+firebaseBom = "32.6.0"
+compose = "1.5.4"
+composeBom = "2023.10.01"
+composeActivity = "1.8.2"
+composeMaterial3 = "1.2.0-beta01"
+firebaseCrashlyticsKtx = "19.0.0"
+
+[libraries]
+androidGradlePlugin = { group = "com.android.tools.build", name = "gradle", version.ref = "androidGradlePlugin" }
+androidx-activity-ktx = { module = "androidx.activity:activity-ktx", version.ref = "activityKtx" }
+androidx-fragment-ktx = { module = "androidx.fragment:fragment-ktx", version.ref = "fragmentKtx" }
+androidx-lifecycle-livedata-ktx = { module = "androidx.lifecycle:lifecycle-livedata-ktx", version.ref = "lifecycleViewmodelCompose" }
+androidx-lifecycle-viewmodel-compose = { module = "androidx.lifecycle:lifecycle-viewmodel-compose", version.ref = "lifecycleViewmodelCompose" }
+androidx-material-icons-core = { module = "androidx.compose.material:material-icons-core" }
+androidx-recyclerview = { module = "androidx.recyclerview:recyclerview", version.ref = "recyclerview" }
+androidx-runtime-rxjava2 = { module = "androidx.compose.runtime:runtime-rxjava2" }
+core = { module = "com.google.zxing:core", version.ref = "core" }
+kotlin-stdlib-jdk8 = { module = "org.jetbrains.kotlin:kotlin-stdlib-jdk8", version.ref = "kotlinStdlibJdk8" }
+kotlinGradlePlugin = { group = "org.jetbrains.kotlin", name = "kotlin-gradle-plugin", version.ref = "kotlin" }
+kotlinx-serialization-json-v171 = { module = "org.jetbrains.kotlinx:kotlinx-serialization-json", version.ref = "kotlinxSerializationJson" }
+navGradlePlugin = { group = "androidx.navigation", name = "navigation-safe-args-gradle-plugin", version.ref = "navGradlePlugin" }
+googleServices = { group = "com.google.gms", name = "google-services", version.ref = "googleServices" }
+kotlinxMetadataJvm = { group = "org.jetbrains.kotlinx", name = "kotlinx-metadata-jvm", version.ref = "kotlinxMetadataJvm" }
+
+# GSON
+gson = { group = "com.google.code.gson", name = "gson", version.ref = "gson" }
+
+# navigation
+navFragmentKtx = { group = "androidx.navigation", name = "navigation-fragment-ktx", version.ref = "navFragmentKtx" }
+navUiKtx = { group = "androidx.navigation", name = "navigation-ui-ktx", version.ref = "navFragmentKtx" }
+
+# Room
+roomCompiler = { group = "androidx.room", name = "room-compiler", version.ref = "room" }
+
+# Firebase
+firebase-bom = { group = "com.google.firebase", name = "firebase-bom", version.ref = "firebaseBom" }
+firebase-gradleCrashlytics = { group = "com.google.firebase", name = "firebase-crashlytics-gradle", version.ref = "firebaseGradleCrashlytics" }
+firebase-gradlePerf = { group = "com.google.firebase", name = "perf-plugin", version.ref = "firebaseGradlePerf" }
+
+# Androidx
+androidx-core = { group = "androidx.core", name = "core-ktx", version.ref = "androidx-core" }
+androidx-appcompat = { group = "androidx.appcompat", name = "appcompat", version.ref = "androidx-appcompat" }
+androidx-constraintlayout = { group = "androidx.constraintlayout", name = "constraintlayout", version.ref = "androidx-constraintlayout" }
+androidx-lifecycleViewmodel = { group = "androidx.lifecycle", name = "lifecycle-viewmodel-ktx", version.ref = "androidx-lifecycle" }
+androidx-lifecycleReactivestreams = { group = "androidx.lifecycle", name = "lifecycle-reactivestreams-ktx", version.ref = "androidx-lifecycle" }
+androidx-lifecycleExtensions = { group = "androidx.lifecycle", name = "lifecycle-extensions", version.ref = "androidx-lifecycleExtensions" }
+androidx-legacy = { group = "androidx.legacy", name = "legacy-support-v4", version.ref = "androidx-legacy" }
+androidx-vectordrawable = { group = "androidx.vectordrawable", name = "vectordrawable", version.ref = "androidx-vectordrawable" }
+androidx-browser = { group = "androidx.browser", name = "browser", version.ref = "androidx-browser" }
+
+# Compose
+compose-bom = { group = "androidx.compose", name = "compose-bom", version.ref = "composeBom" }
+compose-ui = { group = "androidx.compose.ui", name = "ui", version.ref = "compose" }
+compose-foundation = { group = "androidx.compose.foundation", name = "foundation", version.ref = "compose" }
+compose-runtime_livedata = { group = "androidx.compose.runtime", name = "runtime-livedata", version.ref = "compose" }
+compose-uiTooling = { group = "androidx.compose.ui", name = "ui-tooling", version.ref = "compose" }
+compose-uiTooling-preview = { group = "androidx.compose.ui", name = "ui-tooling-preview", version.ref = "compose" }
+compose-activity = { group = "androidx.activity", name = "activity-compose", version.ref = "composeActivity" }
+compose-material3 = { group = "androidx.compose.material3", name = "material3", version.ref = "composeMaterial3" }
+compose-material = { group = "androidx.compose.material", name = "material", version.ref = "compose" }
+compose-material-iconsExtended = { group = "androidx.compose.material", name = "material-icons-extended", version.ref = "compose" }
+compose-navigation = { group = "androidx.navigation", name = "navigation-compose", version = "2.8.2" }
+
+firebase-crashlytics-ktx = { group = "com.google.firebase", name = "firebase-crashlytics-ktx", version.ref = "firebaseCrashlyticsKtx" }
+
+[plugins]
+kotlin-serialization = { id = "org.jetbrains.kotlin.plugin.serialization", version.ref = "kotlin" }
